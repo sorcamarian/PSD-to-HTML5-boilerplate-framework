@@ -1,5 +1,5 @@
 {
-  "name": "PSD-to-HTML5-framework",
+  "name": "psd-to-html5-framework",
   "version": "1.0.0",
   "description": "PSD to HTML5 framework for small-medium sized projects. Focusing on modularity for developers and speed for users.",
   "keywords": ["psd-to-html", "framework", "speed", "modularity", "rwd", "scss"],
