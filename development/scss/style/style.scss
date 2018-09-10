@@ -1,0 +1,106 @@
+
+/*
+  Global PARTS
+  Global PARTS
+  Global PARTS
+*/
+@import '_variables.scss';
+@import '_mixins.scss';
+@import 'reset.scss';
+@import 'general.scss';
+
+
+
+
+/*
+  Components specific PARTS
+  Components specific PARTS
+  Components specific PARTS
+*/
+
+
+
+
+
+
+/*
+  ALL Screen sizes
+  ALL Screen sizes
+  ALL Screen sizes
+*/
+/*
+  Structure
+*/
+@import "./_structure/all_screens.scss";
+
+
+
+
+/*
+  ONLY Extra Small Screens
+  ONLY Extra Small Screens
+  ONLY Extra Small Screens
+*/
+@media (max-width: $only-xs-style-end-at-wdith) {
+
+  /*
+    Structure
+  */
+  @import "./_structure/only_xs.scss";
+
+}
+
+
+
+
+/*
+  ONLY Small Screens
+  ONLY Small Screens
+  ONLY Small Screens
+*/
+@media
+(min-width : $only-sm-style-start-at-wdith)
+and
+(max-width : $only-sm-style-end-at-wdith) {
+
+  /*
+    Structure
+  */
+  @import "./_structure/only_sm.scss";
+
+}
+
+
+
+
+/*
+ - Rarerly used
+ UNTIL Small screens(Extra Small screens & Small screens)
+ UNTIL Small screens(Extra Small screens & Small screens)
+ UNTIL Small screens(Extra Small screens & Small screens)
+*/
+@media (max-width : $only-sm-style-end-at-wdith) {
+
+
+
+} 
+
+
+
+
+/*
+  ONLY Large Screens
+  ONLY Large Screens
+  ONLY Large Screens
+*/
+@media
+(min-width : $only-sm-style-start-at-wdith)
+  and
+(max-width : $only-sm-style-end-at-wdith)  {
+
+  /*
+    Structure
+  */
+  @import "./_structure/only_lg.scss";
+
+}

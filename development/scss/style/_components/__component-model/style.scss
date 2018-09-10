@@ -1,0 +1,15 @@
+// Can be used for fast testing
+
+@import "_own_variables";
+@import "_own_mixins";
+
+@import "own_reset";
+@import 'own_general';
+@import 'all_screens';
+
+@import "only_xs";
+@import "only_sm";
+// Optional most of the time:
+// @import "until_sm";
+
+@import "only_lg";

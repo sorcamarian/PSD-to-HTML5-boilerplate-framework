@@ -1,0 +1,21 @@
+{
+  "name": "PSD-to-HTML5-framework",
+  "version": "1.0.0",
+  "description": "PSD to HTML5 framework for small-medium sized projects. Focusing on modularity for developers and speed for users.",
+  "keywords": ["psd-to-html", "framework", "speed", "modularity", "rwd", "scss"],
+  "author": "Sorca Marian",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/sorcamarian/PSD-to-HTML5-framework.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
+    "pump": "^3.0.0"
+  }
+}
