@@ -37,7 +37,13 @@ const ALL_JAVASCRIPT_DIR_PATH   = "./javascript",
 gulp.task('compile-main-scss', () => {
     gulp.src(MAIN_SCSS_FILE_PATH)
         .pipe( scss() )
-        .pipe( autoprefixer() )
+        .pipe( autoprefixer({
+            // IMPORTANT NOTE: needs internet connection
+            // docs: https://github.com/browserslist/browserslist#full-list
+            browsers: [
+              "last 3 versions",
+            ]
+        }))
         .pipe( gulp.dest(PRODUCTION_CSS_DIR_PATH) )
         .pipe(cleanCSS())
         .pipe(rename({
