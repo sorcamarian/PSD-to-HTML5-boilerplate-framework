@@ -83,7 +83,7 @@ and
 
 
 
-} 
+}
 
 
 
@@ -93,10 +93,7 @@ and
   ONLY Large Screens
   ONLY Large Screens
 */
-@media
-(min-width : $only-sm-style-start-at-wdith)
-  and
-(max-width : $only-sm-style-end-at-wdith)  {
+@media (min-width : $only-lg-style-start-at-width )  {
 
   /*
     Structure
